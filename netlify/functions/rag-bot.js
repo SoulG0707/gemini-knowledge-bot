@@ -5,7 +5,7 @@ const { GoogleGenAI } = require("@google/genai");
 const ai = new GoogleGenAI({});
 
 // FIX: Odoo domain required for CORS
-const allowedOrigin = "https://edu-aidrinkshop.odoo.com";
+const allowedOrigin = "https://edu-aidrinkshop.odoo.com,https://edu-aidrinkshop.odoo.com/gemini-bot";
 
 // 2. KNOWLEDGE BASE (In-Context Learning Content)
 const POLICY_KNOWLEDGE = `
