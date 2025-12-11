@@ -67,7 +67,7 @@ If the information is not explicitly found in the document, reply with:
       }
     });
 
-    const bot_answer = response.text.trim();
+    const bot_answer = (response.output_text || "").trim();
 
     // 3.4. SUCCESS RESPONSE
     return {
