@@ -78,7 +78,7 @@ If not explicitly found, reply:
       config: { temperature: 0.1 },
     });
 
-    const bot_answer = await response.text();
+    const bot_answer = response.output_text;
 
     // 3.4. SUCCESS RESPONSE
     return {
